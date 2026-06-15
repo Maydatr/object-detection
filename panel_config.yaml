@@ -1,0 +1,172 @@
+status_colors:
+  ok: '#4CAF50'
+  no_data: '#B0BEC5'
+  light: '#FF9800'
+  heavy: '#F44336'
+status_labels:
+  ok: Hasar yok (panel goruldu)
+  no_data: Veri yok
+  light: Hafif hasar
+  heavy: Agir hasar
+damage_severity:
+  scratch: light
+  dent: light
+  lamp_broken: heavy
+  glass_shatter: heavy
+  crack: heavy
+  tire_flat: heavy
+damage_labels:
+  dent: Gocuk
+  scratch: Cizik
+  crack: Kirilma
+  glass_shatter: Cam Kirigi
+  lamp_broken: Far Hasari
+  tire_flat: Lastik Patlak
+part_to_schema:
+  back_bumper: back_bumper
+  back_door: back_door
+  back_glass: back_glass
+  back_left_door: back_left_door
+  back_left_light: back_left_light
+  back_light: back_light
+  back_right_door: back_right_door
+  back_right_light: back_right_light
+  front_bumper: front_bumper
+  front_door: front_door
+  front_glass: front_glass
+  front_left_door: front_left_door
+  front_left_light: front_left_light
+  front_light: front_light
+  front_right_door: front_right_door
+  front_right_light: front_right_light
+  hood: hood
+  left_mirror: left_mirror
+  right_mirror: right_mirror
+  tailgate: tailgate
+  trunk: trunk
+  wheel: wheel
+panel_labels:
+  back_bumper: Arka Tampon
+  back_door: Arka Kapi
+  back_glass: Arka Cam
+  back_left_door: Sol Arka Kapi
+  back_left_light: Sol Arka Far
+  back_light: Arka Stop
+  back_right_door: Sag Arka Kapi
+  back_right_light: Sag Arka Far
+  front_bumper: On Tampon
+  front_door: On Kapi
+  front_glass: On Cam
+  front_left_door: Sol On Kapi
+  front_left_light: Sol On Far
+  front_light: On Far Grubu
+  front_right_door: Sag On Kapi
+  front_right_light: Sag On Far
+  hood: Kaput
+  left_mirror: Sol Ayna
+  right_mirror: Sag Ayna
+  tailgate: Bagaj Kapagi
+  trunk: Bagaj
+  wheel: Tekerlek
+schema_panels:
+- hood
+- front_glass
+- front_bumper
+- front_left_door
+- front_right_door
+- front_left_light
+- front_right_light
+- back_glass
+- back_bumper
+- back_left_door
+- back_right_door
+- back_left_light
+- back_right_light
+- trunk
+- tailgate
+- left_mirror
+- right_mirror
+- wheel
+- front_door
+- back_door
+- front_light
+- back_light
+schema_svg: car_svg/car.svg
+panel_elements:
+  back_bumper:
+  - path21
+  - path25
+  - path27
+  - path28
+  - path30
+  - path31
+  - path32
+  - path36
+  - path37
+  - path38
+  - path39
+  - path65
+  back_glass:
+  - path70
+  - path82
+  back_left_door:
+  - path54
+  back_light:
+  - path72
+  back_right_light:
+  - path71
+  - path81
+  front_bumper:
+  - path6
+  - path12
+  - path13
+  - path14
+  - path16
+  - path17
+  - path26
+  - path52
+  - path53
+  front_glass:
+  - path3
+  - path4
+  front_left_door:
+  - path63
+  front_left_light:
+  - path15
+  front_light:
+  - path7
+  - path8
+  - path9
+  - path10
+  - path11
+  front_right_light:
+  - path22
+  - path23
+  hood:
+  - path5
+  - path33
+  - path62
+  tailgate:
+  - path66
+  - path67
+  - path73
+  trunk:
+  - path61
+  - path69
+  - path74
+  - path115
+  wheel:
+  - path24
+  - path29
+  - path34
+  - path35
+  - path57
+  - path58
+  - path59
+  - path60
+  - path83
+  - path84
+  - path86
+  - path95
+  - path101
+  - path110

@@ -1,0 +1,80 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Virtual env ---
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# --- IDE / OS ---
+.idea/
+.vscode/
+.cursor/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# --- ML weights & checkpoints ---
+# Egitilmis modeller (weights/) repoda; base checkpoint'ler ve runs/ disarida
+weights/*.onnx
+weights/*.engine
+*.pt
+!weights/*.pt
+
+# --- Training ciktilari ---
+runs/
+output/
+wandb/
+mlruns/
+tensorboard/
+*.log
+
+# --- Dataset gorselleri & label dosyalari (sadece data.yaml repoda) ---
+datasets/**/images/
+datasets/**/labels/
+datasets/**/*.cache
+datasets/**/*.jpg
+datasets/**/*.jpeg
+datasets/**/*.png
+datasets/**/*.bmp
+datasets/**/*.webp
+datasets/**/*.txt
+!datasets/**/README*.txt
+
+# Symlink'ler (CarDD gibi harici dataset baglantilari)
+datasets/**/images
+
+# --- Ultralytics otomatik indirilen dataset ---
+datasets/carparts-seg/
+
+# --- Gecici / capture ---
+output/
+session_captures/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- Secrets ---
+credentials.json
+secrets.yaml
+*.pem
+*.key

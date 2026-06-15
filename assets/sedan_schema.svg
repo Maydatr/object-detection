@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720">
+  <style>
+    .bg      { fill: #FFFFFF; }
+    .body    { fill: #ECEFF1; stroke: #546E7A; stroke-width: 2.2; stroke-linejoin: round; }
+    .glass   { fill: #F5F7F9; stroke: #90A4AE; stroke-width: 1.2; }
+    .line    { stroke: #90A4AE; stroke-width: 1.2; fill: none; }
+    .hub     { fill: #78909C; stroke: #455A64; stroke-width: 1; }
+    .badge   { stroke: #FFFFFF; stroke-width: 1.6; }
+    .wheel   { stroke: #455A64; stroke-width: 1.6; }
+    .title   { font-family: 'Segoe UI', Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #37474F; }
+    .legend  { font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; fill: #455A64; }
+  </style>
+
+  <rect class="bg" width="1200" height="720"/>
+
+  <!-- ============================ SOL YAN ============================ -->
+  <text class="title" x="290" y="58" text-anchor="middle">Sol Yan</text>
+  <g id="view_left" transform="translate(40,70)">
+    <!-- govde -->
+    <path class="body" d="M 28 150 L 22 128 L 40 116 L 150 106 L 198 68 L 330 68 L 408 110 L 470 118 L 480 150 Z"/>
+    <!-- cam alani -->
+    <path class="glass" d="M 200 72 L 326 72 L 358 100 L 168 100 Z"/>
+    <line class="line" x1="263" y1="72" x2="263" y2="100"/>
+    <line class="line" x1="326" y1="72" x2="358" y2="100"/>
+    <!-- tekerlekler (durum ile renklenir) -->
+    <circle id="left_side_wheel_front" class="wheel" cx="112" cy="150" r="30" fill="#B0BEC5"/>
+    <circle id="left_side_wheel_rear"  class="wheel" cx="400" cy="150" r="30" fill="#B0BEC5"/>
+    <circle class="hub" cx="112" cy="150" r="11"/>
+    <circle class="hub" cx="400" cy="150" r="11"/>
+    <!-- panel rozetleri -->
+    <circle id="left_side_front_bumper"     class="badge" cx="33"  cy="135" r="11" fill="#B0BEC5"/>
+    <circle id="left_side_front_left_light" class="badge" cx="55"  cy="123" r="11" fill="#B0BEC5"/>
+    <circle id="left_side_hood"             class="badge" cx="100" cy="122" r="12" fill="#B0BEC5"/>
+    <circle id="left_side_front_glass"      class="badge" cx="182" cy="86"  r="11" fill="#B0BEC5"/>
+    <circle id="left_side_left_mirror"      class="badge" cx="205" cy="108" r="9"  fill="#B0BEC5"/>
+    <circle id="left_side_front_door"       class="badge" cx="248" cy="126" r="13" fill="#B0BEC5"/>
+    <circle id="left_side_back_door"        class="badge" cx="345" cy="126" r="13" fill="#B0BEC5"/>
+    <circle id="left_side_back_glass"       class="badge" cx="402" cy="90"  r="11" fill="#B0BEC5"/>
+    <circle id="left_side_trunk"            class="badge" cx="448" cy="124" r="12" fill="#B0BEC5"/>
+    <circle id="left_side_back_left_light"  class="badge" cx="468" cy="126" r="10" fill="#B0BEC5"/>
+    <circle id="left_side_back_bumper"      class="badge" cx="478" cy="138" r="11" fill="#B0BEC5"/>
+  </g>
+
+  <!-- ============================ SAG YAN ============================ -->
+  <text class="title" x="290" y="392" text-anchor="middle">Sag Yan</text>
+  <g id="view_right" transform="translate(40,404) scale(-1,1) translate(-500,0)">
+    <path class="body" d="M 28 150 L 22 128 L 40 116 L 150 106 L 198 68 L 330 68 L 408 110 L 470 118 L 480 150 Z"/>
+    <path class="glass" d="M 200 72 L 326 72 L 358 100 L 168 100 Z"/>
+    <line class="line" x1="263" y1="72" x2="263" y2="100"/>
+    <line class="line" x1="326" y1="72" x2="358" y2="100"/>
+    <circle id="right_side_wheel_front" class="wheel" cx="112" cy="150" r="30" fill="#B0BEC5"/>
+    <circle id="right_side_wheel_rear"  class="wheel" cx="400" cy="150" r="30" fill="#B0BEC5"/>
+    <circle class="hub" cx="112" cy="150" r="11"/>
+    <circle class="hub" cx="400" cy="150" r="11"/>
+    <circle id="right_side_front_bumper"      class="badge" cx="33"  cy="135" r="11" fill="#B0BEC5"/>
+    <circle id="right_side_front_right_light" class="badge" cx="55"  cy="123" r="11" fill="#B0BEC5"/>
+    <circle id="right_side_hood"              class="badge" cx="100" cy="122" r="12" fill="#B0BEC5"/>
+    <circle id="right_side_front_glass"       class="badge" cx="182" cy="86"  r="11" fill="#B0BEC5"/>
+    <circle id="right_side_right_mirror"      class="badge" cx="205" cy="108" r="9"  fill="#B0BEC5"/>
+    <circle id="right_side_front_door"        class="badge" cx="248" cy="126" r="13" fill="#B0BEC5"/>
+    <circle id="right_side_back_door"         class="badge" cx="345" cy="126" r="13" fill="#B0BEC5"/>
+    <circle id="right_side_back_glass"        class="badge" cx="402" cy="90"  r="11" fill="#B0BEC5"/>
+    <circle id="right_side_trunk"             class="badge" cx="448" cy="124" r="12" fill="#B0BEC5"/>
+    <circle id="right_side_back_right_light"  class="badge" cx="468" cy="126" r="10" fill="#B0BEC5"/>
+    <circle id="right_side_back_bumper"       class="badge" cx="478" cy="138" r="11" fill="#B0BEC5"/>
+  </g>
+
+  <!-- ============================ UST GORUNUM ============================ -->
+  <text class="title" x="850" y="50" text-anchor="middle">Ust Gorunum</text>
+  <g id="view_top" transform="translate(700,60)">
+    <!-- govde (burun yukarida) -->
+    <path class="body" d="M 150 14
+      C 108 14 88 48 86 108
+      L 78 250 L 78 430
+      C 78 520 92 562 112 576
+      C 122 583 140 586 150 586
+      C 160 586 178 583 188 576
+      C 208 562 222 520 222 430
+      L 222 250 L 214 108
+      C 212 48 192 14 150 14 Z"/>
+    <!-- kabin / cam alani -->
+    <path class="glass" d="M 100 150 L 200 150 L 206 240 L 206 360 L 200 430 L 100 430 L 94 360 L 94 240 Z"/>
+    <line class="line" x1="94" y1="290" x2="206" y2="290"/>
+    <!-- tekerlekler -->
+    <ellipse id="wheel_fl" class="wheel" cx="74"  cy="135" rx="15" ry="27" fill="#B0BEC5"/>
+    <ellipse id="wheel_fr" class="wheel" cx="226" cy="135" rx="15" ry="27" fill="#B0BEC5"/>
+    <ellipse id="wheel_rl" class="wheel" cx="74"  cy="455" rx="15" ry="27" fill="#B0BEC5"/>
+    <ellipse id="wheel_rr" class="wheel" cx="226" cy="455" rx="15" ry="27" fill="#B0BEC5"/>
+    <!-- panel rozetleri -->
+    <circle id="front_light"       class="badge" cx="150" cy="32"  r="10" fill="#B0BEC5"/>
+    <circle id="front_left_light"  class="badge" cx="104" cy="60"  r="10" fill="#B0BEC5"/>
+    <circle id="front_right_light" class="badge" cx="196" cy="60"  r="10" fill="#B0BEC5"/>
+    <circle id="front_bumper"      class="badge" cx="150" cy="58"  r="11" fill="#B0BEC5"/>
+    <circle id="hood"              class="badge" cx="150" cy="105" r="13" fill="#B0BEC5"/>
+    <circle id="front_glass"       class="badge" cx="150" cy="160" r="12" fill="#B0BEC5"/>
+    <circle id="left_mirror"       class="badge" cx="80"  cy="172" r="9"  fill="#B0BEC5"/>
+    <circle id="right_mirror"      class="badge" cx="220" cy="172" r="9"  fill="#B0BEC5"/>
+    <circle id="front_left_door"   class="badge" cx="110" cy="235" r="12" fill="#B0BEC5"/>
+    <circle id="front_right_door"  class="badge" cx="190" cy="235" r="12" fill="#B0BEC5"/>
+    <circle id="back_left_door"    class="badge" cx="110" cy="335" r="12" fill="#B0BEC5"/>
+    <circle id="back_right_door"   class="badge" cx="190" cy="335" r="12" fill="#B0BEC5"/>
+    <circle id="back_glass"        class="badge" cx="150" cy="410" r="12" fill="#B0BEC5"/>
+    <circle id="trunk"             class="badge" cx="150" cy="455" r="13" fill="#B0BEC5"/>
+    <circle id="tailgate"          class="badge" cx="150" cy="498" r="11" fill="#B0BEC5"/>
+    <circle id="back_left_light"   class="badge" cx="104" cy="540" r="10" fill="#B0BEC5"/>
+    <circle id="back_right_light"  class="badge" cx="196" cy="540" r="10" fill="#B0BEC5"/>
+    <circle id="back_bumper"       class="badge" cx="150" cy="558" r="11" fill="#B0BEC5"/>
+    <circle id="back_light"        class="badge" cx="150" cy="578" r="10" fill="#B0BEC5"/>
+  </g>
+
+  <!-- ============================ DURUM LEJANTI ============================ -->
+  <g transform="translate(60,672)">
+    <circle cx="8"   cy="0" r="9" fill="#4CAF50" stroke="#FFFFFF" stroke-width="1.6"/>
+    <text class="legend" x="24"  y="5">Hasarsiz</text>
+    <circle cx="150" cy="0" r="9" fill="#FF9800" stroke="#FFFFFF" stroke-width="1.6"/>
+    <text class="legend" x="166" y="5">Hafif</text>
+    <circle cx="270" cy="0" r="9" fill="#F44336" stroke="#FFFFFF" stroke-width="1.6"/>
+    <text class="legend" x="286" y="5">Agir</text>
+    <circle cx="390" cy="0" r="9" fill="#B0BEC5" stroke="#FFFFFF" stroke-width="1.6"/>
+    <text class="legend" x="406" y="5">Veri Yok</text>
+  </g>
+
+  <!-- ust gorunumde tekil olmayan, sema panel listesindeki alias id'ler (gorunmez) -->
+  <rect id="front_door" x="0" y="0" width="0" height="0" fill="none" opacity="0"/>
+  <rect id="back_door"  x="0" y="0" width="0" height="0" fill="none" opacity="0"/>
+  <rect id="wheel"      x="0" y="0" width="0" height="0" fill="none" opacity="0"/>
+</svg>

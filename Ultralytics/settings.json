@@ -1,0 +1,21 @@
+{
+  "settings_version": "0.0.6",
+  "datasets_dir": "C:\\Users\\mayda\\OneDrive\\Belgeler\\dev\\rnd-projects\\object-detection\\datasets",
+  "weights_dir": "C:\\Users\\mayda\\OneDrive\\Belgeler\\dev\\rnd-projects\\object-detection\\weights",
+  "runs_dir": "C:\\Users\\mayda\\OneDrive\\Belgeler\\dev\\rnd-projects\\object-detection\\runs",
+  "uuid": "29c2cda2fa9c2e48e2b91f2a2f42b19deee0631cbb9ecbe6133db3812fcac012",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "hub": true,
+  "mlflow": true,
+  "neptune": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}

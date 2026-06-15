@@ -1,0 +1,12 @@
+path: C:/datasets/CarDD_release/CarDD_COCO
+train: images/train2017
+val: images/val2017
+test: images/test2017
+nc: 6
+names:
+  0: dent
+  1: scratch
+  2: crack
+  3: glass_shatter
+  4: lamp_broken
+  5: tire_flat
